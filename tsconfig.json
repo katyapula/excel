@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
     "sourceMap": true,
-    "strict": true
+    "strict": true,
+    "module": "commonjs", // add this
+    "target": "es6", // and this
+    "allowSyntheticDefaultImports": true,
   },
   "exclude": [
     "node_modules"
